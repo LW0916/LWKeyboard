@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LWKeyboard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LWKeyboard.'
+  s.summary          = '安全键盘'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -23,15 +23,15 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/LW0916/LWKeyboard'
   s.screenshots = [
-  'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser1.png',
-  'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser2.png',
-  'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser3.png'
+  'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard1.png',
+  'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard2.png',
+  'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard3.png'
   ]
+  
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zglinwei_0916@163.com' => 'zglinwei_0916@163.com' }
   s.source           = { :git => 'https://github.com/LW0916/LWKeyboard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LWKeyboard/Classes/**/*'
@@ -40,8 +40,8 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
     'LWKeyboard' => ['LWKeyboard/Assets/*']
    }
-  
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.requires_arc = true
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
