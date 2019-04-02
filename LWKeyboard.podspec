@@ -22,7 +22,11 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/LW0916/LWKeyboard'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots = [
+  'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser1.png',
+  'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser2.png',
+  'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser3.png'
+  ]
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zglinwei_0916@163.com' => 'zglinwei_0916@163.com' }
   s.source           = { :git => 'https://github.com/LW0916/LWKeyboard.git', :tag => s.version.to_s }

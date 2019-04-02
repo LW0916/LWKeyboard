@@ -26,7 +26,7 @@
     _textField.textAlignment = NSTextAlignmentLeft;
     //    _textField.secureTextEntry = YES;
     _textField.borderStyle = UITextBorderStyleRoundedRect;
-    [_textField p_configKeyboardIconImage:nil titile:@"中国联通安全键盘"];
+    [_textField p_configKeyboardIconImage:nil titile:@"安全键盘"];
     [self.view addSubview:_textField];
 }
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
