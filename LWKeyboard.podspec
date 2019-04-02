@@ -28,10 +28,11 @@ TODO: Add long description of the pod here.
   'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard3.png'
   ]
   
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zglinwei_0916@163.com' => 'zglinwei_0916@163.com' }
-  s.source           = { :git => 'https://github.com/LW0916/LWKeyboard.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'LW0916' => 'zglinwei_0916@163.com' }
+  s.source           = { :git => 'https://github.com/LW0916/LWKeyboard.git', :tag => s.version.to_s }
+
+  # s.social_media_url = 'https://github.com/LW0916'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LWKeyboard/Classes/**/*'
