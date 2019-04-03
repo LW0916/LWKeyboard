@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/LWKeyboard.svg?style=flat)](https://cocoapods.org/pods/LWKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/LWKeyboard.svg?style=flat)](https://cocoapods.org/pods/LWKeyboard)
 
-[![iamge](https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard.gif)
+![iamge](https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard.gif)
 
 ## Example
 
