@@ -22,11 +22,11 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/LW0916/LWKeyboard'
-  s.screenshots = [
-  'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard1.png',
-  'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard2.png',
-  'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard3.png'
-  ]
+  # s.screenshots = [
+  # 'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard1.png',
+  # 'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard2.png',
+  # 'https://github.com/LW0916/LWKeyboard/blob/master/Screenshots/LWKeyboard3.png'
+  # ]
   
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LW0916' => 'zglinwei_0916@163.com' }

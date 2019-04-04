@@ -14,7 +14,7 @@
     NSString *path;
     path = [[NSBundle mainBundle]pathForResource:name ofType:ext inDirectory:@"LWKeyboard.bundle"];
     if (path.length == 0) {
-        path = [[NSBundle mainBundle]pathForResource:name ofType:ext inDirectory:@"Frameworks/LWKeyboardSDK.framework/LWKeyboard.bundle"];
+        path = [[NSBundle mainBundle]pathForResource:name ofType:ext inDirectory:@"Frameworks/LWKeyboard.framework/LWKeyboard.bundle"];
         if (path.length == 0) {
             path = ext.length == 0?name:[NSString stringWithFormat:@"%@.%@",name,ext];
         }
