@@ -1,6 +1,3 @@
-# pod 
- pod 'LWKeyboard', '~> 0.1.0'
-
 # LWKeyboard
 
 [![CI Status](https://img.shields.io/travis/zglinwei_0916@163.com/LWKeyboard.svg?style=flat)](https://travis-ci.org/zglinwei_0916@163.com/LWKeyboard)
